@@ -81,7 +81,7 @@ function insert_account($data){
 }
 
 function redirect($path){
-    header("Location: /project-main/" . $path);
+    header("Location: /project/" . $path);
     exit;
 }
 function echoNotice(){
